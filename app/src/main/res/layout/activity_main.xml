@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.turate.myfirstapplication.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/LAY"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:layout_weight="1.0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:paddingTop="@dimen/text_offset"
+            android:text="@string/red" />
+        <TextView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/orange"
+            android:layout_weight="1.0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:paddingTop="@dimen/text_offset"
+            android:text="@string/orange" />
+        <TextView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"
+            android:layout_weight="1.0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:paddingTop="@dimen/text_offset"
+            android:text="@string/yellow" />
+        <TextView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:layout_weight="1.0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:paddingTop="@dimen/text_offset"
+            android:text="@string/green" />
+        <TextView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:layout_weight="1.0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:paddingTop="@dimen/text_offset"
+            android:text="@string/blue" />
+        <TextView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/indigo"
+            android:layout_weight="1.0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:paddingTop="@dimen/text_offset"
+            android:text="@string/indigo" />
+        <TextView
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/violet"
+            android:layout_weight="1.0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:paddingTop="@dimen/text_offset"
+            android:text="@string/violet" />
+    </LinearLayout>
+</RelativeLayout>
